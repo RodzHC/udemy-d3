@@ -1,0 +1,2424 @@
+{
+  "name": "flare",
+  "children": [
+    {
+      "name": "Action Type Base",
+      "children": [
+        { "name": "Action Type" },
+        { "name": "Action Type Snapshot" }
+      ]
+    },
+    { "name": "Agreement", "children": [{ "name": "OLA" }] },
+    { "name": "Alias", "children": [{ "name": "DNS Alias" }] },
+    {
+      "name": "Application",
+      "children": [
+        { "name": "Custom Application" },
+        { "name": "Store Application" }
+      ]
+    },
+    {
+      "name": "Application",
+      "children": [
+        { "name": ".NET Application" },
+        { "name": "Active Directory Service" },
+        { "name": "ActiveMatrix Business Works" },
+        { "name": "ActiveMatrix Business Works Process" },
+        { "name": "Advanced Queue Queue" },
+        { "name": "Agility Process" },
+        { "name": "Application Server" },
+        { "name": "BizTalk" },
+        { "name": "BizTalk Orchestration" },
+        { "name": "CA Enterprise Communicator" },
+        { "name": "CA Identity Manager Provisioning Server" },
+        { "name": "CA Introscope Enterprise Manager" },
+        { "name": "Cisco CallManager" },
+        { "name": "Cisco Fibre InterConnect" },
+        { "name": "Citrix Application Icon" },
+        { "name": "Citrix Collector" },
+        { "name": "Citrix License server" },
+        { "name": "Citrix XenAPP or Presentation Server" },
+        { "name": "Cloud Messaging Service" },
+        { "name": "Connect-It Service" },
+        { "name": "Control-M" },
+        { "name": "Database Instance" },
+        { "name": "Delivery Controler" },
+        { "name": "Documentum Brava Job Processor" },
+        { "name": "Documentum Brava License Server" },
+        { "name": "Documentum Broker" },
+        { "name": "Documentum DocBase" },
+        { "name": "Dynamic CRM Component" },
+        { "name": "EMS Queue" },
+        { "name": "epic agent" },
+        { "name": "epic cache" },
+        { "name": "epicd app server" },
+        { "name": "Exchange Service Component" },
+        { "name": "Fast Search" },
+        { "name": "Generic Application" },
+        { "name": "Groundwork" },
+        { "name": "HP Operations Manager" },
+        { "name": "HP Quality Center" },
+        { "name": "HP Service Manager" },
+        { "name": "HP SM Index Server" },
+        { "name": "HP SM KnowledgeBase" },
+        { "name": "IBM CICS" },
+        { "name": "IBM CTG" },
+        { "name": "IBM WebSphere Message Broker" },
+        { "name": "IBM WebSphere MQ" },
+        { "name": "IBM WebSphere MQ Queue" },
+        { "name": "IBM WMB Http Listener" },
+        { "name": "Infrastructure Service" },
+        { "name": "Inter connect" },
+        { "name": "Interconnect Instance" },
+        { "name": "ITAM Asset Center" },
+        { "name": "Load Balancer Application" },
+        { "name": "Lotus Domino HTTP Server" },
+        { "name": "Management Server" },
+        { "name": "Mongo Config Server" },
+        { "name": "Mongos Server" },
+        { "name": "MSMQ" },
+        { "name": "MySQLClusterDataNode" },
+        { "name": "MySQLClusterMGMNode" },
+        { "name": "Operating-system-level Virtualization Engine" },
+        { "name": "Oracle App TNS Service" },
+        { "name": "Oracle Concurrent Server" },
+        { "name": "Oracle Database Listener" },
+        { "name": "Oracle Discoverer Engine" },
+        { "name": "Oracle Discoverer UI" },
+        { "name": "Oracle ESB" },
+        { "name": "Oracle Forms Engine" },
+        { "name": "Oracle Forms UI" },
+        { "name": "Oracle Fulfillment Server" },
+        { "name": "Oracle HTTP Server" },
+        { "name": "Oracle Metric Client" },
+        { "name": "Oracle Metric Server" },
+        { "name": "Oracle Notification Server" },
+        { "name": "Oracle OACORE Server" },
+        { "name": "Oracle OAFM Server" },
+        { "name": "Oracle Process Manager" },
+        { "name": "Oracle Report Server" },
+        { "name": "Oracle TNS Listener Engine" },
+        { "name": "Peoplesoft Application Server" },
+        { "name": "RabbitMQ" },
+        { "name": "RabbitMQ Cluster" },
+        { "name": "RabbitMQ Queue" },
+        { "name": "SAP Application" },
+        { "name": "SAP Application Server" },
+        { "name": "SAP BO BOXIScheduleRouter" },
+        { "name": "SAP Business Objects" },
+        { "name": "SAP Business Objects CMS server" },
+        { "name": "SAP Hana Db" },
+        { "name": "SAP System" },
+        { "name": "Sendmail" },
+        { "name": "ServiceNow Application" },
+        { "name": "SharePoint" },
+        { "name": "SharePoint Service" },
+        { "name": "Simulation" },
+        { "name": "Simulation Inclusion" },
+        { "name": "SQL Server Integration Services Job" },
+        { "name": "Tibco Adapter" },
+        { "name": "Tibco Enterprise Message Service" },
+        { "name": "Tibco Hawk" },
+        { "name": "Tuxedo" },
+        { "name": "Tuxedo Portal" },
+        { "name": "Vignette Content Management Server" },
+        { "name": "Vignette Search Starter" },
+        { "name": "Vignette Server" },
+        { "name": "Virtual Machine HyperVisor" },
+        { "name": "VMware vCenter Instance" },
+        { "name": "WBEM Service" },
+        { "name": "Web Application" },
+        { "name": "Web Service" },
+        { "name": "Web Site" },
+        { "name": "Weblogic JMS Queue" },
+        { "name": "Weblogic JMS Server" },
+        { "name": "Weblogic Module Server" },
+        { "name": "Webseal" },
+        { "name": "Websphere Portal" },
+        { "name": "Windows Domain Controller" },
+        { "name": "WMB Flow" }
+      ]
+    },
+    {
+      "name": "Application File",
+      "children": [
+        { "name": "Access Control" },
+        { "name": "Access Roles" },
+        { "name": "Action Category" },
+        { "name": "Action Step Definition" },
+        { "name": "Action Type Base" },
+        { "name": "AJAX Script" },
+        { "name": "AMB Message Processor" },
+        { "name": "Angular ng-template" },
+        { "name": "Angular Providers" },
+        { "name": "Angular Providers 2" },
+        { "name": "Announcement" },
+        { "name": "Announcement Consumer Type" },
+        { "name": "Announcement Style" },
+        { "name": "Answer" },
+        { "name": "App Template" },
+        { "name": "Application Administration ACL Inheritance" },
+        { "name": "Application Menu" },
+        { "name": "Application Menu" },
+        { "name": "Approval" },
+        { "name": "Approval Definition" },
+        { "name": "Approval Type" },
+        { "name": "Approval Type Definition" },
+        { "name": "Approving Groups" },
+        { "name": "Approving Groups" },
+        { "name": "Approving Users" },
+        { "name": "Approving Users" },
+        { "name": "Archive Destroy Rule" },
+        { "name": "Archive Related Records" },
+        { "name": "Archive Rule" },
+        { "name": "Assessment Metric" },
+        { "name": "Assessment Metric Definition" },
+        { "name": "Assessment Metric Template" },
+        { "name": "Assessment Metric Type" },
+        { "name": "Assessment Template Definition" },
+        { "name": "Assessment X Category Matrix" },
+        { "name": "Assessment Y Category Matrix" },
+        { "name": "Attachment Extractor" },
+        { "name": "Audio" },
+        { "name": "Authentication Configuration" },
+        { "name": "Auto Flush" },
+        { "name": "Available at Locations" },
+        { "name": "Available at Locations" },
+        { "name": "Available for Companies" },
+        { "name": "Available for Companies" },
+        { "name": "Available for Departments" },
+        { "name": "Available for Departments" },
+        { "name": "Available for Groups" },
+        { "name": "Available for Groups" },
+        { "name": "Available for Users" },
+        { "name": "Available for Users" },
+        { "name": "Available Search Resource" },
+        { "name": "Banner Step" },
+        { "name": "Base UI Configuration" },
+        { "name": "Benchmark Indicator" },
+        { "name": "Benchmark Indicator Category" },
+        { "name": "Benchmark Indicator Group" },
+        { "name": "Breakdown" },
+        { "name": "Breakdown Mapping" },
+        { "name": "Breakdown matrix exclusions" },
+        { "name": "Breakdown Relation" },
+        { "name": "Breakdown Source" },
+        { "name": "Breakdown Widget Indicator" },
+        { "name": "BSM Related Item" },
+        { "name": "Bubble Chart" },
+        { "name": "Bucket" },
+        { "name": "Bucket group" },
+        { "name": "Business Rule" },
+        { "name": "Calendar" },
+        { "name": "Carousel Slide" },
+        { "name": "Cart Layout" },
+        { "name": "Catalog" },
+        { "name": "Catalog Item" },
+        { "name": "Catalog Item Category" },
+        { "name": "Catalog Item Not Available for" },
+        { "name": "Catalog Items Catalog" },
+        { "name": "Catalog Portal Page" },
+        { "name": "Catalog Renderer" },
+        { "name": "Catalog Site" },
+        { "name": "Catalog Variable Set" },
+        { "name": "Catalog Variable Set" },
+        { "name": "Category" },
+        { "name": "Category Property" },
+        { "name": "Change Schedule Definition Core" },
+        { "name": "Chart color scheme" },
+        { "name": "Chart Colors" },
+        { "name": "Child" },
+        { "name": "Choice Set" },
+        { "name": "CI Filters" },
+        { "name": "CI Identifier" },
+        { "name": "CI Relation Filter" },
+        { "name": "CI Relationship Rollup" },
+        { "name": "CI Relationship Type" },
+        { "name": "CI/Group Relationship Type" },
+        { "name": "CI/User Relationship Type" },
+        { "name": "CIM Query" },
+        { "name": "Classification" },
+        { "name": "Classification Criteria" },
+        { "name": "Client Script" },
+        { "name": "Clone Cleanup Script" },
+        { "name": "Clone Data Preserver" },
+        { "name": "Clone Exclude Table" },
+        { "name": "Cloud Mgmt Region" },
+        { "name": "CMDB Categories" },
+        { "name": "CMDB Class User Preference" },
+        { "name": "CMDB Duplicate Remediator Default Related Items" },
+        { "name": "CMDB Health Group Scorecard Threshold" },
+        { "name": "CMDB Health Metric" },
+        { "name": "CMDB Health Metric Preference" },
+        { "name": "CMDB Health Orphan Rule" },
+        { "name": "CMDB Health Scorecard Threshold" },
+        { "name": "CMDB Health Staleness Rule" },
+        { "name": "CMDB Recommended Field" },
+        { "name": "CMDB Remediation Rule" },
+        { "name": "CMDB View" },
+        { "name": "CMDB View Instance" },
+        { "name": "Code Search Group" },
+        { "name": "Code Search Table" },
+        { "name": "Collection Home Page" },
+        { "name": "Color Definition" },
+        { "name": "Column" },
+        { "name": "Column" },
+        { "name": "Component" },
+        { "name": "Condition" },
+        { "name": "Condition Checks" },
+        { "name": "Configuration" },
+        { "name": "Connect Action" },
+        { "name": "Connection & Credential Aliases" },
+        { "name": "Contained Role" },
+        { "name": "Container" },
+        { "name": "Content Block" },
+        { "name": "Content Configuration" },
+        { "name": "Content Link" },
+        { "name": "Content Theme" },
+        { "name": "Content Theme CSS" },
+        { "name": "Content Type" },
+        { "name": "Content variable" },
+        { "name": "Context Menu" },
+        { "name": "Cool Thing" },
+        { "name": "CORS Rule" },
+        { "name": "Count Gauges" },
+        { "name": "Credential Type Metadata" },
+        { "name": "Cross scope privilege" },
+        { "name": "CSM Field Map" },
+        { "name": "CSM Table Map" },
+        { "name": "CSS Include" },
+        { "name": "Customer Size Bucket" },
+        { "name": "Dashboard" },
+        { "name": "Dashboard Breakdown Source" },
+        { "name": "Dashboard Group" },
+        { "name": "Dashboard Layout" },
+        { "name": "Dashboard Permissions" },
+        { "name": "Dashboard Placement" },
+        { "name": "Dashboard Tab" },
+        { "name": "Data Lookup Definitions" },
+        { "name": "Data Lookup Matcher Rules" },
+        { "name": "Data Policy" },
+        { "name": "Data Policy Rule" },
+        { "name": "Data Source" },
+        { "name": "Data Source Precedence" },
+        { "name": "Data Source Staleness Definition" },
+        { "name": "Database View" },
+        { "name": "Datum Ownership" },
+        { "name": "Day" },
+        { "name": "Decision Matrix" },
+        { "name": "Deleted Application File" },
+        { "name": "Dependency CSS Includes" },
+        { "name": "Dependency JS Includes" },
+        { "name": "Deployment Extension Container" },
+        { "name": "Deployment Extension Definition" },
+        { "name": "Design Access" },
+        { "name": "Detail Pages" },
+        { "name": "Development Permission" },
+        { "name": "Development Permission Set" },
+        { "name": "Diagnostic" },
+        { "name": "Diagrammer Actions" },
+        { "name": "Dictionary Attribute" },
+        { "name": "Dictionary Entry" },
+        { "name": "Dictionary Entry Override" },
+        { "name": "Digest Interval" },
+        { "name": "Discovery IP Range" },
+        { "name": "Discovery Port Probe" },
+        { "name": "Discovery Range Set" },
+        { "name": "Document Title" },
+        { "name": "Dynamic Filter Options" },
+        { "name": "Dynamic page title variables" },
+        { "name": "Editor Macro" },
+        { "name": "Elements Filter" },
+        { "name": "Elements List" },
+        { "name": "Elements Security List" },
+        { "name": "Email Access Restriction" },
+        { "name": "Email Client Canned Messages" },
+        { "name": "Email Client Template" },
+        { "name": "Email Configuration" },
+        { "name": "Email Filter" },
+        { "name": "Email Layout" },
+        { "name": "Email Script" },
+        { "name": "Email Template" },
+        { "name": "Embed Object" },
+        { "name": "Embedded Help" },
+        { "name": "Embedded Help Qualifier" },
+        { "name": "Embedded Help Role Priority" },
+        { "name": "Embedded List Control" },
+        { "name": "Escalation Interval" },
+        { "name": "Event Registration" },
+        { "name": "Execution Plan" },
+        { "name": "Execution Plan Task" },
+        { "name": "Export Definition" },
+        { "name": "Export Set" },
+        { "name": "Export Target" },
+        { "name": "Extension Instance" },
+        { "name": "Extension Point" },
+        { "name": "External Dependencies" },
+        { "name": "Facet" },
+        { "name": "Field class" },
+        { "name": "Field Label" },
+        { "name": "Field Map" },
+        { "name": "Field Map" },
+        { "name": "Field Setter" },
+        { "name": "Filter" },
+        { "name": "Filter Action" },
+        { "name": "Filter Condition" },
+        { "name": "Filter Configuration" },
+        { "name": "Filtered Message" },
+        { "name": "Fix Script" },
+        { "name": "Flow Block" },
+        { "name": "Flow catalog variable model" },
+        { "name": "Flow Formatter" },
+        { "name": "Flow Stages" },
+        { "name": "Form" },
+        { "name": "Form Annotation Type" },
+        { "name": "Form Section" },
+        { "name": "Gauge" },
+        { "name": "Graph Line" },
+        { "name": "Grid Canvas" },
+        { "name": "Grid Canvas Pane" },
+        { "name": "Guided Setup Change Log" },
+        { "name": "Guided Setup Content" },
+        { "name": "Guided Setup Content Status" },
+        { "name": "Guided Tour" },
+        { "name": "Guided Tour Element" },
+        { "name": "Guided Tour Step" },
+        { "name": "Help Context" },
+        { "name": "Holiday" },
+        { "name": "Home Page Section" },
+        { "name": "Home Page Section Module" },
+        { "name": "HTTP Headers" },
+        { "name": "HTTP Headers" },
+        { "name": "HTTP Method" },
+        { "name": "HTTP Query Parameters" },
+        { "name": "Images" },
+        { "name": "Import Export Map" },
+        { "name": "Import Table Users and Groups and Roles" },
+        { "name": "Index Suggestion Rule" },
+        { "name": "Indexes" },
+        { "name": "Indicator" },
+        { "name": "Indicator Breakdown" },
+        { "name": "Indicator Group" },
+        { "name": "Indicator Group" },
+        { "name": "Indicator Source" },
+        { "name": "Indicator time series exclusion" },
+        { "name": "Input Parameter" },
+        { "name": "Installation Exit" },
+        { "name": "Instance" },
+        { "name": "Interactive Filter" },
+        { "name": "Interactive Filter Date" },
+        { "name": "Interactive Filter Group" },
+        { "name": "Interactive Filter Reference" },
+        { "name": "Interceptor" },
+        { "name": "Invalid Serial Number" },
+        { "name": "Item" },
+        { "name": "Item Option" },
+        { "name": "Item Variable Assignment" },
+        { "name": "Job Indicator" },
+        { "name": "Job Indicator Breakdown exclusions" },
+        { "name": "JS Include" },
+        { "name": "JS Includes" },
+        { "name": "Knowledge Nav-ons" },
+        { "name": "Layout Column" },
+        { "name": "LDAP OU Definition" },
+        { "name": "LDAP Server" },
+        { "name": "LDAP Server URL" },
+        { "name": "Licensing Exclusion" },
+        { "name": "List" },
+        { "name": "List Action" },
+        { "name": "List Client Script" },
+        { "name": "List Control" },
+        { "name": "List Server Script" },
+        { "name": "Live Table Notification" },
+        { "name": "Logic Definition" },
+        { "name": "Macro" },
+        { "name": "Mailboxes" },
+        { "name": "Managed Source" },
+        { "name": "Managed Source Indicators" },
+        { "name": "Manual Breakdown" },
+        { "name": "Many to Many Definition" },
+        { "name": "Map Indicator" },
+        { "name": "Map Page" },
+        { "name": "Map View Configuration Types" },
+        { "name": "Map View Relationship Types" },
+        { "name": "Mapped Facet Filter" },
+        { "name": "Matcher Field Definitions" },
+        { "name": "Member" },
+        { "name": "Menu Category" },
+        { "name": "Menu Item" },
+        { "name": "Menu List" },
+        { "name": "Message" },
+        { "name": "Meta Tag" },
+        { "name": "Meta Tags" },
+        { "name": "Metadata Snapshot" },
+        { "name": "Metric Category" },
+        { "name": "Metric Definition" },
+        { "name": "Mid Selector Override" },
+        { "name": "MID Server Application" },
+        { "name": "MID Server Capability" },
+        { "name": "MID Server Capability Value Test" },
+        { "name": "MID Server IP Range" },
+        { "name": "MID Server Property" },
+        { "name": "MID Server Script" },
+        { "name": "MID Server Script Include" },
+        { "name": "MID Server Script parameter" },
+        { "name": "MID Server Synchronized File" },
+        { "name": "Mobile App Shortcut Item" },
+        { "name": "Mobile Home Page" },
+        { "name": "Mobile Home Page Collection" },
+        { "name": "Mobile Home Page Module" },
+        { "name": "Mobile Home Page Section" },
+        { "name": "Mobile Layout Categories" },
+        { "name": "Mobile Theme" },
+        { "name": "Module" },
+        { "name": "Module" },
+        { "name": "Multilevel Pivot Rule" },
+        { "name": "MultiProbe Included Probe" },
+        { "name": "Navigation Handler" },
+        { "name": "Navigation Link" },
+        { "name": "Non-Doctype Layout Column" },
+        { "name": "Non-Doctype Widget/View Macros" },
+        { "name": "Not Available at Locations" },
+        { "name": "Not Available for Companies" },
+        { "name": "Not Available for Companies" },
+        { "name": "Not Available for Departments" },
+        { "name": "Not Available for Departments" },
+        { "name": "Not Available for Groups" },
+        { "name": "Not Available for Groups" },
+        { "name": "Not Available for Locations" },
+        { "name": "Not Available for Users" },
+        { "name": "Not Available for Users" },
+        { "name": "Notification Category" },
+        { "name": "Notification condition" },
+        { "name": "Notification Filter" },
+        { "name": "Notification Indicator" },
+        { "name": "Notification Service Provider" },
+        { "name": "Notification Subscription" },
+        { "name": "Number" },
+        { "name": "Application Registries" },
+        { "name": "OAuth Entity Profile" },
+        { "name": "OAuth Entity Profile Scope" },
+        { "name": "OAuth Entity Scope" },
+        { "name": "Object Operation" },
+        { "name": "OLAP Cube View" },
+        { "name": "Operation" },
+        { "name": "Opt Out Feedback Option" },
+        { "name": "Orderable Items" },
+        { "name": "Ordered Item Link" },
+        { "name": "Output Parameter" },
+        { "name": "Overview Help Page" },
+        { "name": "Page" },
+        { "name": "Page Route Map" },
+        { "name": "Password Reset Credential Store" },
+        { "name": "Password Reset Credential Store Parameters" },
+        { "name": "Password Reset Credential Store Types" },
+        { "name": "Password Reset Extension Type" },
+        { "name": "Password Reset Identification Type" },
+        { "name": "Password Reset Process" },
+        { "name": "Password Reset Process Credential Store" },
+        { "name": "Password Reset Process User Group" },
+        { "name": "Password Reset Process Verification" },
+        { "name": "Password Reset Question" },
+        { "name": "Password Reset Verification" },
+        { "name": "Password Reset Verification Param" },
+        { "name": "Password Reset Verification Type" },
+        { "name": "PDF Page Header Footer Template" },
+        { "name": "Performance Analytics Text Index Configuration" },
+        { "name": "Plan Sequencing" },
+        { "name": "Portal Announcements" },
+        { "name": "Portal Page" },
+        { "name": "Predefined Filters" },
+        { "name": "Probe" },
+        { "name": "Probe parameter" },
+        { "name": "Process Flow Trigger Plan" },
+        { "name": "Process Flow Trigger Stage" },
+        { "name": "Process Guides" },
+        { "name": "Process Steps" },
+        { "name": "Processor" },
+        { "name": "Public Pages" },
+        { "name": "Push Application" },
+        { "name": "Push Feedback" },
+        { "name": "Push Message Attribute Value" },
+        { "name": "Push Notification Action" },
+        { "name": "Push Notification Installation" },
+        { "name": "Push Notification Message" },
+        { "name": "Push Notification Message Content" },
+        { "name": "Question" },
+        { "name": "Question" },
+        { "name": "Question Choice" },
+        { "name": "Question Choice" },
+        { "name": "Question Class" },
+        { "name": "Question Type" },
+        { "name": "Question Type Choice" },
+        { "name": "Range" },
+        { "name": "Rate Limit Rules" },
+        { "name": "Recommendation" },
+        { "name": "Recommendation Indicator M2M" },
+        { "name": "Reconciliation Definition" },
+        { "name": "Reference Style" },
+        { "name": "Related Item" },
+        { "name": "Related List" },
+        { "name": "Relationship" },
+        { "name": "Relative Duration" },
+        { "name": "Report" },
+        { "name": "Report Layer" },
+        { "name": "Report Map Types" },
+        { "name": "Report Source" },
+        { "name": "Report Users and Groups" },
+        { "name": "Request Parent Mapping" },
+        { "name": "Resource Configuration" },
+        { "name": "REST Message" },
+        { "name": "Risk Conditions" },
+        { "name": "Role" },
+        { "name": "Round Robin Archive" },
+        { "name": "Round Robin Data Source" },
+        { "name": "Round Robin Definition" },
+        { "name": "Round Robin Graph" },
+        { "name": "Round Robin Graph Set" },
+        { "name": "Row" },
+        { "name": "Rule" },
+        { "name": "Rule" },
+        { "name": "Schedule" },
+        { "name": "Schedule Page" },
+        { "name": "Scheduled Job" },
+        { "name": "Scheduled Suite Run" },
+        { "name": "Scope Script Access" },
+        { "name": "Scope Table Access" },
+        { "name": "Script" },
+        { "name": "Script Include" },
+        { "name": "Scripted REST API" },
+        { "name": "Scripted REST Header" },
+        { "name": "Scripted REST Header Association" },
+        { "name": "Scripted REST Query Parameter" },
+        { "name": "Scripted REST Query Parameter Association" },
+        { "name": "Scripted REST Resource" },
+        { "name": "Scripted REST Version" },
+        { "name": "Search Actions" },
+        { "name": "Search Context" },
+        { "name": "Search Field" },
+        { "name": "Search Group" },
+        { "name": "Search Resource" },
+        { "name": "Search Resource Context Property" },
+        { "name": "Search Resource Property" },
+        { "name": "Search Source" },
+        { "name": "Search Source" },
+        { "name": "Searcher" },
+        { "name": "Section" },
+        { "name": "Semaphore" },
+        { "name": "Service API" },
+        { "name": "Service Portal" },
+        { "name": "Service Portal Documentation" },
+        { "name": "Service Portal UI Formatter" },
+        { "name": "Service Registry Query" },
+        { "name": "Service Type" },
+        { "name": "Setter Field Definitions" },
+        { "name": "Signature" },
+        { "name": "Site" },
+        { "name": "SLA Conditions" },
+        { "name": "SLA Definition" },
+        { "name": "SNMP Field" },
+        { "name": "SOAP Message" },
+        { "name": "SOAP Message Function" },
+        { "name": "Stage Default" },
+        { "name": "State Model" },
+        { "name": "State Transition" },
+        { "name": "Stationery" },
+        { "name": "Step Instance" },
+        { "name": "Style" },
+        { "name": "Style Rule Core" },
+        { "name": "Style Sheet" },
+        { "name": "Style Sheet" },
+        { "name": "Stylesheets" },
+        { "name": "SubFlow Plan" },
+        { "name": "Suggested Relationship" },
+        { "name": "Sys Cal Span" },
+        { "name": "Sys Job" },
+        { "name": "Sys Listener Detail" },
+        { "name": "System Help" },
+        { "name": "System Property" },
+        { "name": "System Property Category" },
+        { "name": "Tab" },
+        { "name": "Table" },
+        { "name": "Table Subscription Configuration" },
+        { "name": "Table Transform Map" },
+        { "name": "Target" },
+        { "name": "Target Tables" },
+        { "name": "Target value" },
+        { "name": "Task" },
+        { "name": "Task Action Workflow" },
+        { "name": "Task Assignment" },
+        { "name": "Task Assignment Definition" },
+        { "name": "Task Definition" },
+        { "name": "Template" },
+        { "name": "Test" },
+        { "name": "Test Step" },
+        { "name": "Test Step Config" },
+        { "name": "Test Step Config Category" },
+        { "name": "Test Step Environment" },
+        { "name": "Test Suite" },
+        { "name": "Test Suite Test" },
+        { "name": "Test Template" },
+        { "name": "Text Analytics Stop Words" },
+        { "name": "Text Search Groups" },
+        { "name": "Text Search Table" },
+        { "name": "Theme" },
+        { "name": "Theme" },
+        { "name": "Threshold" },
+        { "name": "Time series" },
+        { "name": "Timeline Page" },
+        { "name": "Timeline Page Span Style" },
+        { "name": "Transform Script" },
+        { "name": "Translated Name / Field" },
+        { "name": "Trigger" },
+        { "name": "Trigger Condition" },
+        { "name": "Type" },
+        { "name": "UI Action" },
+        { "name": "UI Action - Mobile" },
+        { "name": "UI Action Role" },
+        { "name": "UI Formatter" },
+        { "name": "UI Page" },
+        { "name": "UI Policy" },
+        { "name": "UI Policy Action" },
+        { "name": "UI Policy Related List Action" },
+        { "name": "UI Script" },
+        { "name": "UI View" },
+        { "name": "UI View Action" },
+        { "name": "Unit" },
+        { "name": "UPS Alarm" },
+        { "name": "UsageAnalytics Count Configuration" },
+        { "name": "User Criteria" },
+        { "name": "Validation Script" },
+        { "name": "Variable Category" },
+        { "name": "Variable Set" },
+        { "name": "Variable Substitutions" },
+        { "name": "Variable Substitutions" },
+        { "name": "Vendor Catalog Item" },
+        { "name": "Video" },
+        { "name": "View Field" },
+        { "name": "View Table" },
+        { "name": "VMware Folder Type" },
+        { "name": "Scripted Web Service" },
+        { "name": "Welcome Page Section" },
+        { "name": "Whitelisted Client Error" },
+        { "name": "Widget" },
+        { "name": "Widget" },
+        { "name": "Widget Angular Provider" },
+        { "name": "Widget Clone" },
+        { "name": "Widget Dependency" },
+        { "name": "Widget Dependency" },
+        { "name": "Widget Element" },
+        { "name": "Widget Indicator" },
+        { "name": "Widget/View Macros" },
+        { "name": "Widgets" },
+        { "name": "Wizard" },
+        { "name": "Wizard Panel" },
+        { "name": "Wizard Panel Transition" },
+        { "name": "Wizard Panel Variable" },
+        { "name": "WMI Field" },
+        { "name": "Workflow" },
+        { "name": "Workflow Element Definition" },
+        { "name": "WS-Security Profiles (Outbound)" }
+      ]
+    },
+    {
+      "name": "Application Server",
+      "children": [
+        { "name": "Cloud App Server" },
+        { "name": "Composer" },
+        { "name": "Data Power" },
+        { "name": "Data Power Domain" },
+        { "name": "Domino" },
+        { "name": "GlassFish" },
+        { "name": "GlassFish WAR" },
+        { "name": "HP uCMDB" },
+        { "name": "IBM Websphere" },
+        { "name": "JavaServer" },
+        { "name": "JBoss" },
+        { "name": "Jboss module" },
+        { "name": "Jrun" },
+        { "name": "Jrun WAR" },
+        { "name": "Oracle Essbase Server" },
+        { "name": "Oracle iAS" },
+        { "name": "Oracle iAS Web module" },
+        { "name": "Remedy HSServer" },
+        { "name": "Tomcat" },
+        { "name": "Tomcat WAR" },
+        { "name": "Vendavo Application Server" },
+        { "name": "Weblogic" },
+        { "name": "Weblogic LB" },
+        { "name": "WeblogicModule" },
+        { "name": "Websphere EAR" }
+      ]
+    },
+    {
+      "name": "Assessment Metric Template",
+      "children": [{ "name": "Assessment NPS Template" }]
+    },
+    {
+      "name": "Assessment Template Definition",
+      "children": [{ "name": "Assessment NPS Definition" }]
+    },
+    {
+      "name": "Asset",
+      "children": [
+        { "name": "Consumable" },
+        { "name": "Facility" },
+        { "name": "Hardware" },
+        { "name": "Software License" }
+      ]
+    },
+    {
+      "name": "Authentication Configuration",
+      "children": [
+        { "name": "Basic Auth Configuration" },
+        { "name": "OAuth2 Configuration" }
+      ]
+    },
+    {
+      "name": "Base Configuration Item",
+      "children": [{ "name": "Configuration Item" }]
+    },
+    {
+      "name": "Base Service Security Membership",
+      "children": [
+        { "name": "Security Membership For Service" },
+        { "name": "Security Membership For Service Environment" },
+        { "name": "Security Membership For Service Layer" }
+      ]
+    },
+    {
+      "name": "Base UI Configuration",
+      "children": [
+        { "name": "Record Producer Configuration" },
+        { "name": "Table Configuration" },
+        { "name": "Wizard Configuration" }
+      ]
+    },
+    {
+      "name": "Business Service",
+      "children": [
+        { "name": "Business Service Group" },
+        { "name": "Monitored Service" }
+      ]
+    },
+    { "name": "Business Service Group", "children": [] },
+    {
+      "name": "Catalog Item",
+      "children": [
+        { "name": "Content Item" },
+        { "name": "Order guide" },
+        { "name": "Product Catalog Item" },
+        { "name": "Record Producer" },
+        { "name": "Wizard Launcher" }
+      ]
+    },
+    {
+      "name": "Catalog Renderer",
+      "children": [
+        { "name": "Homepage Catalog Renderer" },
+        { "name": "Homepage Category Renderer" }
+      ]
+    },
+    { "name": "Category", "children": [{ "name": "Dynamic category" }] },
+    {
+      "name": "Certification Condition",
+      "children": [
+        { "name": "Certification Attribute Condition" },
+        { "name": "Certification CI Relationship Condition" },
+        { "name": "Certification Group Relationship Condition" },
+        { "name": "Certification Related List Condition" },
+        { "name": "Certification User Relationship Condition" }
+      ]
+    },
+    { "name": "Change Request", "children": [{ "name": "IMAC" }] },
+    {
+      "name": "Change Schedule Definition Core",
+      "children": [
+        { "name": "Change Schedule Definition" },
+        { "name": "Related Definition" }
+      ]
+    },
+    {
+      "name": "Channel Responders",
+      "children": [{ "name": "GraphQL Channel Responders" }]
+    },
+    {
+      "name": "Classification",
+      "children": [{ "name": "Windows Classification" }]
+    },
+    {
+      "name": "Client Script",
+      "children": [
+        { "name": "Catalog Client Scripts" },
+        { "name": "Wizard Client Script" }
+      ]
+    },
+    {
+      "name": "Cloud Management Credential",
+      "children": [{ "name": "Azure Service Principal" }]
+    },
+    {
+      "name": "Cloud Mgmt Network Interface",
+      "children": [{ "name": "VMware Network Adapter" }]
+    },
+    {
+      "name": "Cloud Network",
+      "children": [
+        { "name": "VMware Distributed Virtual Switch" },
+        { "name": "VMware vCenter Network" }
+      ]
+    },
+    {
+      "name": "Cluster",
+      "children": [
+        { "name": "Storage Cluster" },
+        { "name": "UNIX Cluster" },
+        { "name": "Windows Cluster" }
+      ]
+    },
+    {
+      "name": "Cluster Node",
+      "children": [
+        { "name": "Storage Cluster Node" },
+        { "name": "UNIX Cluster Node" },
+        { "name": "Windows Cluster Node" }
+      ]
+    },
+    {
+      "name": "Cluster Resource",
+      "children": [
+        { "name": "UNIX Cluster Resource" },
+        { "name": "Windows Cluster Resource" }
+      ]
+    },
+    {
+      "name": "CMDB Health Scorecard",
+      "children": [
+        { "name": "CMDB Group Health Scorecard" },
+        { "name": "CMDB Service Health Scorecard" }
+      ]
+    },
+    {
+      "name": "Command",
+      "children": [
+        { "name": "Pipeline Command: Toolkit" },
+        { "name": "Pipeline Command: Unix" },
+        { "name": "SNMPTable Pipeline Command" }
+      ]
+    },
+    {
+      "name": "Component",
+      "children": [
+        { "name": "Action Instance" },
+        { "name": "Flow Logic Instance" },
+        { "name": "Sub Flow instance" }
+      ]
+    },
+    {
+      "name": "Computer",
+      "children": [
+        { "name": "Cisco UCS Blade" },
+        { "name": "Cisco UCS Rack Mount Unit" },
+        { "name": "Mainframe Hardware" },
+        { "name": "Personal Computer" },
+        { "name": "Server" },
+        { "name": "Storage Switch" }
+      ]
+    },
+    {
+      "name": "Condition Schedule",
+      "children": [
+        { "name": "Blackout Schedule" },
+        { "name": "Maintenance Schedule" }
+      ]
+    },
+    {
+      "name": "Configuration file",
+      "children": [{ "name": "Tracked Configuration file" }]
+    },
+    {
+      "name": "Configuration Item",
+      "children": [
+        { "name": "Accessory" },
+        { "name": "Alias" },
+        { "name": "Application" },
+        { "name": "Application Cluster" },
+        { "name": "Batch Job" },
+        { "name": "Business Application" },
+        { "name": "Business Capability" },
+        { "name": "Business Process" },
+        { "name": "Business Service" },
+        { "name": "CIM Profiles" },
+        { "name": "Circuit" },
+        { "name": "Cloud Key Pair" },
+        { "name": "Cloud Mgmt Subnet" },
+        { "name": "Cloud Resource Base" },
+        { "name": "Cluster" },
+        { "name": "Cluster Node" },
+        { "name": "Cluster Resource" },
+        { "name": "Cluster Virtual IP" },
+        { "name": "Communication Device" },
+        { "name": "Computer Peripheral" },
+        { "name": "Computer Room" },
+        { "name": "Computer Room AC" },
+        { "name": "Configuration file" },
+        { "name": "Data Center" },
+        { "name": "Data Center Zone" },
+        { "name": "Database" },
+        { "name": "Database Catalog" },
+        { "name": "Datastore Disk" },
+        { "name": "Disk Partition" },
+        { "name": "Display Hardware" },
+        { "name": "DNS Name" },
+        { "name": "Endpoint" },
+        { "name": "Environment" },
+        { "name": "Facility Hardware" },
+        { "name": "Fibre Channel Port" },
+        { "name": "Group" },
+        { "name": "Hardware" },
+        { "name": "Imaging Hardware" },
+        { "name": "IP Address" },
+        { "name": "IP Device" },
+        { "name": "IP Network" },
+        { "name": "IP Phone" },
+        { "name": "IP Service Instance" },
+        { "name": "Load Balancer Interface" },
+        { "name": "Load Balancer Pool" },
+        { "name": "Load Balancer Pool Member" },
+        { "name": "Load Balancer Service" },
+        { "name": "Load Balancer VLAN" },
+        { "name": "Logical Partition" },
+        { "name": "Memory Module" },
+        { "name": "Monitoring Equipment" },
+        { "name": "Network Adapter" },
+        { "name": "Network Appliance Hostname" },
+        { "name": "Network Hostname" },
+        { "name": "Network Infrastructure Item" },
+        { "name": "Network Traffic" },
+        { "name": "Operating-system-level Virtualization Container" },
+        { "name": "Operating-system-level Virtualization Image" },
+        { "name": "Operating-system-level Virtualization Image Tag" },
+        { "name": "Operating-system-level Virtualization Local Image" },
+        { "name": "Outlet" },
+        { "name": "Package" },
+        { "name": "Patch" },
+        { "name": "Port" },
+        { "name": "Print Queue" },
+        { "name": "Printing Hardware" },
+        { "name": "Qualifier" },
+        { "name": "Rack" },
+        { "name": "SAN Connection" },
+        { "name": "SAN Endpoint" },
+        { "name": "SAN Fabric" },
+        { "name": "SAN Zone" },
+        { "name": "SAN Zone Alias" },
+        { "name": "SAN Zone Alias Member" },
+        { "name": "SAN Zone Member" },
+        { "name": "SAN Zone Set" },
+        { "name": "Software" },
+        { "name": "Storage Area Network" },
+        { "name": "Storage Controller" },
+        { "name": "Storage Device" },
+        { "name": "Storage Export" },
+        { "name": "Storage File Share" },
+        { "name": "Storage HBA" },
+        { "name": "Storage Pool" },
+        { "name": "Storage Pool Member" },
+        { "name": "Storage Volume" },
+        { "name": "Tomcat Connector" },
+        { "name": "Translation Rule" },
+        { "name": "UPS Alarm" },
+        { "name": "UPS Bypass" },
+        { "name": "UPS Input" },
+        { "name": "UPS Output" },
+        { "name": "Veritas Disk Group" },
+        { "name": "Virtual Machine Object" },
+        { "name": "Virtual Private Cloud" },
+        { "name": "Virtual Private Network" },
+        { "name": "Websphere Cell" }
+      ]
+    },
+    {
+      "name": "Connection",
+      "children": [
+        { "name": "HTTP(s) Connection" },
+        { "name": "JDBC Connection" },
+        { "name": "JMS Connection Factory" }
+      ]
+    },
+    {
+      "name": "Content Block",
+      "children": [
+        { "name": "Detailed Content" },
+        { "name": "Dynamic Content" },
+        { "name": "Header" },
+        { "name": "List of Content" },
+        { "name": "Navigation Menu" },
+        { "name": "Sized Content" },
+        { "name": "Static Content" }
+      ]
+    },
+    {
+      "name": "Content Link",
+      "children": [{ "name": "Menu Item" }, { "name": "Menu Section" }]
+    },
+    {
+      "name": "Contract",
+      "children": [
+        { "name": "Lease" },
+        { "name": "Service Contract" },
+        { "name": "Warranty" }
+      ]
+    },
+    {
+      "name": "Create Field",
+      "children": [{ "name": "Add Field" }, { "name": "Edit Field" }]
+    },
+    {
+      "name": "Create Table",
+      "children": [{ "name": "Create Web Service" }, { "name": "Edit Table" }]
+    },
+    {
+      "name": "Create Web Service",
+      "children": [{ "name": "Edit Web Service" }]
+    },
+    {
+      "name": "Credentials",
+      "children": [
+        { "name": "API Key Credentials" },
+        { "name": "AWS Credentials" },
+        { "name": "Basic Auth Credentials" },
+        { "name": "CIM Credentials" },
+        { "name": "Cloud Management Credential" },
+        { "name": "Cloud Mgmt Credentials" },
+        { "name": "JDBC Credentials" },
+        { "name": "JMS Credentials" },
+        { "name": "OAuth 2.0 Credentials" },
+        { "name": "SNMP Community Credentials (Password Only)" },
+        { "name": "SNMPv3 Credentials" },
+        { "name": "SSH Credentials" },
+        { "name": "SSH Private Key Credentials" },
+        { "name": "VMware Credentials" },
+        { "name": "Windows Credentials" }
+      ]
+    },
+    {
+      "name": "Data Lookup Definitions",
+      "children": [{ "name": "Catalog Data Lookup Definitions" }]
+    },
+    {
+      "name": "Data Lookup Matcher Rules",
+      "children": [
+        { "name": "Assignment Data Lookup" },
+        { "name": "Priority Data Lookup" },
+        { "name": "Problem Priority Data Lookup" }
+      ]
+    },
+    {
+      "name": "Database Catalog",
+      "children": [
+        { "name": "DB2 Catalog" },
+        { "name": "MSFT SQL Catalog" },
+        { "name": "MySQL Catalog" },
+        { "name": "Oracle Catalog" },
+        { "name": "Sybase Catalog" }
+      ]
+    },
+    { "name": "Database Clone", "children": [{ "name": "System Clone" }] },
+    {
+      "name": "Database Instance",
+      "children": [
+        { "name": "Cloud DataBase" },
+        { "name": "DB2 Instance" },
+        { "name": "HBase Instance" },
+        { "name": "MongoDB Instance" },
+        { "name": "MS SQL DataBase" },
+        { "name": "MS SQL Server" },
+        { "name": "MSFT SQL Instance" },
+        { "name": "MySQL Instance" },
+        { "name": "Oracle Instance" },
+        { "name": "PostgreSQL Instance" },
+        { "name": "SQL Server Analysis Services" },
+        { "name": "SQL Server Integration Services" },
+        { "name": "SQL Server Reporting Services" },
+        { "name": "Sybase Instance" }
+      ]
+    },
+    {
+      "name": "Datastore",
+      "children": [{ "name": "VMware vCenter Datastore" }]
+    },
+    {
+      "name": "Diagrammer Actions",
+      "children": [
+        { "name": "BSM Map Actions" },
+        { "name": "Workflow Actions" }
+      ]
+    },
+    { "name": "Dictionary Entry", "children": [{ "name": "Variables" }] },
+    {
+      "name": "Directory Server",
+      "children": [
+        { "name": "Active Directory Domain Controller" },
+        { "name": "Cloud Directory" }
+      ]
+    },
+    {
+      "name": "Discovery Queue",
+      "children": [
+        { "name": "MID Server Auto Configuration Queue" },
+        { "name": "Subnet Discovery Queue" }
+      ]
+    },
+    {
+      "name": "Discovery Status",
+      "children": [{ "name": "Help the Help Desk Status" }]
+    },
+    { "name": "Disk", "children": [{ "name": "Storage Disk" }] },
+    {
+      "name": "ECC Agent Metric",
+      "children": [
+        { "name": "ECC Agent Counter Metric" },
+        { "name": "ECC Agent Memory Metric" },
+        { "name": "ECC Agent RGR Metric" },
+        { "name": "ECC Agent Scalar Metric" }
+      ]
+    },
+    {
+      "name": "Edit Field",
+      "children": [{ "name": "Edit Web Service Field" }]
+    },
+    {
+      "name": "Endpoint",
+      "children": [
+        { "name": "ACL Endpoint" },
+        { "name": "Active Directory Domain to Domain Controllers Endpoint" },
+        { "name": "Active Directory Forest Endpoint" },
+        { "name": "Advanced Queue Endpoint" },
+        { "name": "Agility Endpoint" },
+        { "name": "AJP Endpoint" },
+        { "name": "Application To Storage Endpoint" },
+        { "name": "BizTalk Connection Endpoint" },
+        { "name": "Block Endpoint" },
+        { "name": "Business Objects CMS Server Endpoint" },
+        { "name": "Citrix Delivery Controller Endpoint" },
+        { "name": "Compute Security Endpoint" },
+        { "name": "CRM Component Endpoint" },
+        { "name": "CTG Endpoint" },
+        { "name": "Customer Gateway Endpoint" },
+        { "name": "DB2 UDB Endpoint" },
+        { "name": "DCTM Connection to broker Endpoint" },
+        { "name": "DCTM Index Agent Connection Endpoint" },
+        { "name": "DCTM Job Processor Endpoint" },
+        { "name": "DocBase Connection Endpoint" },
+        { "name": "EJB Endpoint" },
+        { "name": "EMS Endpoint" },
+        { "name": "EMS JNDI Endpoint" },
+        { "name": "Enterprise Vault Endpoint" },
+        { "name": "Epicd Endpoint" },
+        { "name": "Exchange 2013 Endpoint" },
+        { "name": "External Network Endpoint" },
+        { "name": "F5 Mirror Endpoint" },
+        { "name": "Fast Search Endpoint" },
+        { "name": "FromCluster_to_RabbitMQ Endpoint" },
+        { "name": "FTP Endpoint" },
+        { "name": "HPOM Endpoint" },
+        { "name": "HTTP Listener to WMB Dependency Endpoint" },
+        { "name": "HTTP(S) Endpoint" },
+        { "name": "IIFP Endpoint" },
+        { "name": "IMAP Endpoint" },
+        { "name": "Inclusion Endpoint" },
+        { "name": "Inter connect Endpoint" },
+        { "name": "Internet Gateway Endpoint" },
+        { "name": "ISCSI Endpoint" },
+        { "name": "ITAM Asset Center Endpoint" },
+        { "name": "JMS Flow Endpoint" },
+        { "name": "JMS Server Endpoint" },
+        { "name": "LDAP Endpoint" },
+        { "name": "Manual Endpoint" },
+        { "name": "MAPI Endpoint" },
+        { "name": "MAPI-HUB Endpoint" },
+        { "name": "MQ Cross-memory Endpoint" },
+        { "name": "MQ Endpoint" },
+        { "name": "MQ Flow Endpoint" },
+        { "name": "MS SQL Server Endpoint" },
+        { "name": "MSMQ Flow Endpoint" },
+        { "name": "MySQL Cluster Data Node Endpoint" },
+        { "name": "MySQL Cluster MGM Endpoint" },
+        { "name": "MySQL Server Endpoint" },
+        { "name": "MySQL Slave Server Endpoint" },
+        { "name": "NAT Endpoint" },
+        { "name": "Network Endpoint" },
+        { "name": "NFS Endpoint" },
+        { "name": "NNTP Endpoint" },
+        { "name": "Oracle DB Endpoint" },
+        { "name": "Oracle ESB Connection Endpoint" },
+        { "name": "Oracle RAC DB Endpoint" },
+        { "name": "Outbound Cluster Endpoint" },
+        { "name": "Peoplesoft Application Server Endpoint" },
+        { "name": "POP3 Endpoint" },
+        { "name": "PostgreSQL DB Endpoint" },
+        { "name": "RabbitMQ Endpoint" },
+        { "name": "Remote TCP Cross-memory Endpoint" },
+        { "name": "RFC Endpoint" },
+        { "name": "Route Table Endpoint" },
+        { "name": "Router Endpoint" },
+        { "name": "SAP APP Endpoint" },
+        { "name": "SAP Application Server Endpoint" },
+        { "name": "SAP BO Servers Endpoint" },
+        { "name": "SAP HANA DB Endpoint" },
+        { "name": "Sharepoint connection Endpoint" },
+        { "name": "Simulation Endpoint" },
+        { "name": "SMTP Endpoint" },
+        { "name": "SSAS Endpoint" },
+        { "name": "SSAS for MSSQL Endpoint" },
+        { "name": "SSIS Endpoint" },
+        { "name": "SSIS file Endpoint" },
+        { "name": "SSIS for MSSQL Endpoint" },
+        { "name": "Storage FC Connectivity Endpoint" },
+        { "name": "StoreFront Components Endpoint" },
+        { "name": "Subnet Endpoint" },
+        { "name": "Sybase Endpoint" },
+        { "name": "TCP Endpoint" },
+        { "name": "Tibco BW Endpoint" },
+        { "name": "Tibco Conf File Endpoint" },
+        { "name": "Tibco File Listener Endpoint" },
+        { "name": "Tibco Hawk Endpoint" },
+        { "name": "Virtual Private Gateway Endpoint" },
+        { "name": "VirtualMachine to ESX Storage Endpoint" },
+        { "name": "VNIC Endpoint" },
+        { "name": "WMB Dependency Endpoint" },
+        { "name": "XenApp or Presentation Server Components Endpoint" },
+        { "name": "XenApp or Presentation Server Endpoint" }
+      ]
+    },
+    {
+      "name": "Exchange Service Component",
+      "children": [
+        { "name": "Exchange Client Access Server" },
+        { "name": "Exchange Edge Transport Server" },
+        { "name": "Exchange Hub Transport Server" },
+        { "name": "Exchange MailBox" },
+        { "name": "Exchange Mailbox Server" },
+        { "name": "ExchangeBackEndServer" },
+        { "name": "ExchangeFrontEndServer" },
+        { "name": "ExchangeHub" }
+      ]
+    },
+    {
+      "name": "Execution Plan Task",
+      "children": [{ "name": "Execution Plan Approval Task" }]
+    },
+    {
+      "name": "Facility Hardware",
+      "children": [
+        { "name": "Buildings" },
+        { "name": "Fuel Tank" },
+        { "name": "HVAC Equipment" },
+        { "name": "Power Equipment" },
+        { "name": "Tower Equipment" }
+      ]
+    },
+    { "name": "Fibre Channel Port", "children": [{ "name": "Storage Port" }] },
+    {
+      "name": "File System",
+      "children": [
+        { "name": "NAS File System" },
+        { "name": "NFS File system" },
+        { "name": "SMB File system" }
+      ]
+    },
+    {
+      "name": "Filter",
+      "children": [
+        { "name": "Pipeline Filter: Key/Value" },
+        { "name": "Pipeline Filter: Regex" },
+        { "name": "Pipeline Filter: Table Column" }
+      ]
+    },
+    {
+      "name": "Filter Condition",
+      "children": [
+        { "name": "Filter Condition" },
+        { "name": "Filter Condition" }
+      ]
+    },
+    {
+      "name": "Filter Configuration",
+      "children": [
+        { "name": "Filter Configuration" },
+        { "name": "Filter Configuration" }
+      ]
+    },
+    {
+      "name": "Flow Base",
+      "children": [{ "name": "Flow" }, { "name": "Flow" }]
+    },
+    { "name": "Flow Block", "children": [{ "name": "Flow Base" }] },
+    {
+      "name": "Flow engine context report",
+      "children": [
+        { "name": "Flow engine context action report" },
+        { "name": "Flow engine context flow report" },
+        { "name": "Flow engine context step report" }
+      ]
+    },
+    {
+      "name": "Guided Setup Content",
+      "children": [
+        { "name": "Guided Setup Group" },
+        { "name": "Guided Setup Information" }
+      ]
+    },
+    {
+      "name": "Hardware",
+      "children": [
+        { "name": "Cisco UCS Chassis" },
+        { "name": "Cisco UCS Equipment" },
+        { "name": "Computer" },
+        { "name": "Mass Storage Device" },
+        { "name": "Network Gear" },
+        { "name": "Out-of-Band Device" },
+        { "name": "PDU" },
+        { "name": "Printer" },
+        { "name": "UPS" }
+      ]
+    },
+    {
+      "name": "Host Cluster",
+      "children": [{ "name": "VMware vCenter Cluster" }]
+    },
+    {
+      "name": "Hyper-V Object",
+      "children": [
+        { "name": "Hyper-V Cluster" },
+        { "name": "Hyper-V Resource Pool" },
+        { "name": "Hyper-V Resource Pool Component" },
+        { "name": "Hyper-V Virtual Network" }
+      ]
+    },
+    { "name": "IBM Websphere", "children": [{ "name": "Websphere ODR LB" }] },
+    { "name": "Image", "children": [{ "name": "Virtual Machine Template" }] },
+    { "name": "Imaging Hardware", "children": [{ "name": "Scanner" }] },
+    {
+      "name": "Import Set Row",
+      "children": [
+        { "name": "Computer" },
+        { "name": "Location" },
+        { "name": "Notification" },
+        { "name": "User" }
+      ]
+    },
+    {
+      "name": "Inclusion Endpoint",
+      "children": [
+        { "name": "AD Service inc" },
+        { "name": "App Icon Inc" },
+        { "name": "AQ Queue" },
+        { "name": "BizTalk Inclusion" },
+        { "name": "Citrix StoreFront App Icon Inc" },
+        { "name": "Cloud DB Instance Inclusion" },
+        { "name": "EBS Inc Modules" },
+        { "name": "EMS Queue EP" },
+        { "name": "GlassFish WAR Inc" },
+        { "name": "IIS Website" },
+        { "name": "J2EE EAR" },
+        { "name": "Jboss Module Inclusion" },
+        { "name": "JMS Queue" },
+        { "name": "Jrun WAR Inc" },
+        { "name": "LDAP DB EP" },
+        { "name": "MQ Queue" },
+        { "name": "MS SQL db inclusion" },
+        { "name": "Oracle App TNS Service EP" },
+        { "name": "Oracle DB schema inclusion" },
+        { "name": "Oracle iAS Module INC" },
+        { "name": "RabbitMQ Queue Endpoint" },
+        { "name": "SAP BO Servers" },
+        { "name": "SharePoint Service EP" },
+        { "name": "Simulation Inclusion Endpoint" },
+        { "name": "SSIS job" },
+        { "name": "StoreFront Components" },
+        { "name": "Tibco BW process" },
+        { "name": "Tomcat WAR Inclusion" },
+        { "name": "Weblogic Module" },
+        { "name": "WMB Flow EP" },
+        { "name": "XenApp or Presentation Server" }
+      ]
+    },
+    {
+      "name": "Infrastructure Service",
+      "children": [
+        { "name": "AD Domain" },
+        { "name": "AD Forest" },
+        { "name": "CA eTrust Directory Server" },
+        { "name": "Directory Server" },
+        { "name": "Email Server" },
+        { "name": "Enterprise Vault" },
+        { "name": "FTP Server" },
+        { "name": "HA Proxy" },
+        { "name": "IIFP" },
+        { "name": "IIS Virtual Directory" },
+        { "name": "Inetinfo service" },
+        { "name": "IP Server" },
+        { "name": "JES" },
+        { "name": "LDAP Service" },
+        { "name": "Policy Server" },
+        { "name": "Site Minder" },
+        { "name": "Sun Directory Proxy Server" },
+        { "name": "Sun LDAP Server" },
+        { "name": "Web Server" }
+      ]
+    },
+    {
+      "name": "Instance",
+      "children": [
+        { "name": "Instance of Carousel" },
+        { "name": "Instance with Link" },
+        { "name": "Instance with Menu" },
+        { "name": "Instance with Table" }
+      ]
+    },
+    {
+      "name": "Instance with Table",
+      "children": [{ "name": "Instance of Simple List" }]
+    },
+    {
+      "name": "IP collection",
+      "children": [
+        { "name": "IP address list" },
+        { "name": "IP Range" },
+        { "name": "Subnet" }
+      ]
+    },
+    {
+      "name": "IP Service Instance",
+      "children": [{ "name": "UNIX Daemon" }, { "name": "Windows Service" }]
+    },
+    {
+      "name": "KVM Object",
+      "children": [
+        { "name": "KVM Storage Pool" },
+        { "name": "KVM Storage Volume" },
+        { "name": "Network" }
+      ]
+    },
+    { "name": "LDAP Service", "children": [{ "name": "LDAP DB" }] },
+    {
+      "name": "License Entitlement",
+      "children": [
+        { "name": "Device Entitlement" },
+        { "name": "User Entitlement" }
+      ]
+    },
+    {
+      "name": "Load Balancer",
+      "children": [
+        { "name": "A10 Load Balancer" },
+        { "name": "ACE" },
+        { "name": "Alteon" },
+        { "name": "Cisco CSM" },
+        { "name": "Cisco CSS" },
+        { "name": "Cisco GSS" },
+        { "name": "Citrix Netscaler" },
+        { "name": "F5 BIG-IP" },
+        { "name": "F5 BigIP GTM" },
+        { "name": "F5 BigIP LTM" },
+        { "name": "ISA Server" },
+        { "name": "Network Load Balancer" },
+        { "name": "Radware Load Balancer" }
+      ]
+    },
+    {
+      "name": "Load Balancer Application",
+      "children": [
+        { "name": "HAProxy Load Balancer" },
+        { "name": "Modjk Load Balancer" },
+        { "name": "ModProxy Load Balancer" },
+        { "name": "Nginx Load Balancer" }
+      ]
+    },
+    {
+      "name": "Log Entry",
+      "children": [
+        { "name": "App Log Entry" },
+        { "name": "Clone Log" },
+        { "name": "Diagnostic Log" },
+        { "name": "Discovery Log" },
+        { "name": "Email Log Entry" },
+        { "name": "Export Log" },
+        { "name": "Import Log" },
+        { "name": "Job Log Row" },
+        { "name": "Proposed Change Verification Log" },
+        { "name": "Rollback Log" },
+        { "name": "SLA Repair Log Entry" },
+        { "name": "Workflow Log Entry" }
+      ]
+    },
+    {
+      "name": "Log Entry",
+      "children": [
+        { "name": "App Log Entry" },
+        { "name": "Clone Log" },
+        { "name": "Diagnostic Log" },
+        { "name": "Discovery Log" },
+        { "name": "Email Log Entry" },
+        { "name": "Export Log" },
+        { "name": "Import Log" },
+        { "name": "Job Log Row" },
+        { "name": "Proposed Change Verification Log" },
+        { "name": "Rollback Log" },
+        { "name": "SLA Repair Log Entry" },
+        { "name": "Workflow Log Entry" }
+      ]
+    },
+    {
+      "name": "Log Entry",
+      "children": [
+        { "name": "App Log Entry" },
+        { "name": "Clone Log" },
+        { "name": "Diagnostic Log" },
+        { "name": "Discovery Log" },
+        { "name": "Email Log Entry" },
+        { "name": "Export Log" },
+        { "name": "Import Log" },
+        { "name": "Job Log Row" },
+        { "name": "Proposed Change Verification Log" },
+        { "name": "Rollback Log" },
+        { "name": "SLA Repair Log Entry" },
+        { "name": "Workflow Log Entry" }
+      ]
+    },
+    {
+      "name": "Log Entry",
+      "children": [
+        { "name": "App Log Entry" },
+        { "name": "Clone Log" },
+        { "name": "Diagnostic Log" },
+        { "name": "Discovery Log" },
+        { "name": "Email Log Entry" },
+        { "name": "Export Log" },
+        { "name": "Import Log" },
+        { "name": "Job Log Row" },
+        { "name": "Proposed Change Verification Log" },
+        { "name": "Rollback Log" },
+        { "name": "SLA Repair Log Entry" },
+        { "name": "Workflow Log Entry" }
+      ]
+    },
+    {
+      "name": "Log Entry",
+      "children": [
+        { "name": "App Log Entry" },
+        { "name": "Clone Log" },
+        { "name": "Diagnostic Log" },
+        { "name": "Discovery Log" },
+        { "name": "Email Log Entry" },
+        { "name": "Export Log" },
+        { "name": "Import Log" },
+        { "name": "Job Log Row" },
+        { "name": "Proposed Change Verification Log" },
+        { "name": "Rollback Log" },
+        { "name": "SLA Repair Log Entry" },
+        { "name": "Workflow Log Entry" }
+      ]
+    },
+    {
+      "name": "Log Entry",
+      "children": [
+        { "name": "App Log Entry" },
+        { "name": "Clone Log" },
+        { "name": "Diagnostic Log" },
+        { "name": "Discovery Log" },
+        { "name": "Email Log Entry" },
+        { "name": "Export Log" },
+        { "name": "Import Log" },
+        { "name": "Job Log Row" },
+        { "name": "Proposed Change Verification Log" },
+        { "name": "Rollback Log" },
+        { "name": "SLA Repair Log Entry" },
+        { "name": "Workflow Log Entry" }
+      ]
+    },
+    {
+      "name": "Log Entry",
+      "children": [
+        { "name": "App Log Entry" },
+        { "name": "Clone Log" },
+        { "name": "Diagnostic Log" },
+        { "name": "Discovery Log" },
+        { "name": "Email Log Entry" },
+        { "name": "Export Log" },
+        { "name": "Import Log" },
+        { "name": "Job Log Row" },
+        { "name": "Proposed Change Verification Log" },
+        { "name": "Rollback Log" },
+        { "name": "SLA Repair Log Entry" },
+        { "name": "Workflow Log Entry" }
+      ]
+    },
+    {
+      "name": "Log Entry",
+      "children": [
+        { "name": "App Log Entry" },
+        { "name": "Clone Log" },
+        { "name": "Diagnostic Log" },
+        { "name": "Discovery Log" },
+        { "name": "Email Log Entry" },
+        { "name": "Export Log" },
+        { "name": "Import Log" },
+        { "name": "Job Log Row" },
+        { "name": "Proposed Change Verification Log" },
+        { "name": "Rollback Log" },
+        { "name": "SLA Repair Log Entry" },
+        { "name": "Workflow Log Entry" }
+      ]
+    },
+    {
+      "name": "Log Entry",
+      "children": [
+        { "name": "App Log Entry" },
+        { "name": "Clone Log" },
+        { "name": "Diagnostic Log" },
+        { "name": "Discovery Log" },
+        { "name": "Email Log Entry" },
+        { "name": "Export Log" },
+        { "name": "Import Log" },
+        { "name": "Job Log Row" },
+        { "name": "Proposed Change Verification Log" },
+        { "name": "Rollback Log" },
+        { "name": "SLA Repair Log Entry" },
+        { "name": "Workflow Log Entry" }
+      ]
+    },
+    {
+      "name": "Logical Datacenter",
+      "children": [
+        { "name": "AWS Datacenter" },
+        { "name": "Azure Datacenter" },
+        { "name": "Cisco Apic" },
+        { "name": "LB Datacenter" },
+        { "name": "Netapp Datacenter" },
+        { "name": "Openstack Datacenter" },
+        { "name": "VMware vCenter Datacenter" }
+      ]
+    },
+    {
+      "name": "Macro",
+      "children": [{ "name": "Column Renderer" }, { "name": "UI Panel" }]
+    },
+    { "name": "Management Server", "children": [{ "name": "Puppet Master" }] },
+    {
+      "name": "Matcher Field Definitions",
+      "children": [{ "name": "Catalog Matcher Variable Definitions" }]
+    },
+    { "name": "Meeting", "children": [{ "name": "CAB Meeting" }] },
+    {
+      "name": "Meeting Agenda Item",
+      "children": [{ "name": "CAB Agenda Item" }]
+    },
+    { "name": "Meeting Attendee", "children": [{ "name": "CAB Attendee" }] },
+    {
+      "name": "Meeting Definition",
+      "children": [{ "name": "CAB Definition" }]
+    },
+    {
+      "name": "Meeting Runtime State",
+      "children": [{ "name": "CAB Meeting Runtime State" }]
+    },
+    {
+      "name": "MID Server Extension Context",
+      "children": [
+        { "name": "SNMP Trap Collector Context" },
+        { "name": "vCenter Event Collector Context" }
+      ]
+    },
+    {
+      "name": "MID Server Synchronized File",
+      "children": [
+        { "name": "MID Server Extension JAR File" },
+        { "name": "MID Server JAR File" },
+        { "name": "MID Server MIB File" },
+        { "name": "MID Server Script File" }
+      ]
+    },
+    {
+      "name": "Monitored Service",
+      "children": [{ "name": "Application Service" }]
+    },
+    {
+      "name": "MySQL Explan Plan Step",
+      "children": [{ "name": "Index Explanation" }]
+    },
+    {
+      "name": "Network Adapter",
+      "children": [{ "name": "Cloud Mgmt Network Interface" }]
+    },
+    {
+      "name": "Network Gear",
+      "children": [
+        { "name": "CSU/DSU" },
+        { "name": "FDDI Cards" },
+        { "name": "Firewall Hardware" },
+        { "name": "Hub Hardware" },
+        { "name": "Intrusion Detection System" },
+        { "name": "IP Firewall" },
+        { "name": "IP Router" },
+        { "name": "IP Switch" },
+        { "name": "Modem Hardware" },
+        { "name": "WAN Accelerator" },
+        { "name": "Wireless Access Point" }
+      ]
+    },
+    {
+      "name": "Network Infrastructure Item",
+      "children": [
+        { "name": "Exit Interface Routing Rule" },
+        { "name": "Next Hop Routing Rule" },
+        { "name": "Router Interface" },
+        { "name": "Switch Forwarding Rule" },
+        { "name": "Switch Partition" },
+        { "name": "Switchport" },
+        { "name": "Wire" }
+      ]
+    },
+    {
+      "name": "Application Registries",
+      "children": [{ "name": "OAuth OIDC Entity" }]
+    },
+    {
+      "name": "Operating-system-level Virtualization Container",
+      "children": [{ "name": "Docker Container" }]
+    },
+    {
+      "name": "Operating-system-level Virtualization Engine",
+      "children": [{ "name": "Docker Engine" }]
+    },
+    {
+      "name": "Operating-system-level Virtualization Image",
+      "children": [{ "name": "Docker Image" }]
+    },
+    {
+      "name": "Operating-system-level Virtualization Image Tag",
+      "children": [{ "name": "Docker Image Tag" }]
+    },
+    {
+      "name": "Operating-system-level Virtualization Local Image",
+      "children": [{ "name": "Docker Local Image" }]
+    },
+    {
+      "name": "Package",
+      "children": [{ "name": "Application" }, { "name": "Sys Plugins" }]
+    },
+    {
+      "name": "Parser",
+      "children": [
+        { "name": "Pipeline Parser: Key/Value" },
+        { "name": "Pipeline Parser: Table" },
+        { "name": "SNMPTable Parser" }
+      ]
+    },
+    {
+      "name": "Plan Execution",
+      "children": [
+        { "name": "MySQL Explan Plan Step" },
+        { "name": "Oracle Explan Plan Step" }
+      ]
+    },
+    {
+      "name": "Platform Analytics Event Aggregate",
+      "children": [{ "name": "Outbound Request Usage Metrics" }]
+    },
+    {
+      "name": "Port Group",
+      "children": [{ "name": "VMware Distributed Virtual Port Group" }]
+    },
+    { "name": "Portal Page", "children": [{ "name": "Page" }] },
+    {
+      "name": "Power Equipment",
+      "children": [
+        { "name": "Automatic Transfer Switch" },
+        { "name": "Direct Current Plant Battery Bank" },
+        { "name": "Direct Current Plant Equipment" },
+        { "name": "Power Generator" },
+        { "name": "Surger Protection Equipment" },
+        { "name": "Uninterruptible Power Supply" }
+      ]
+    },
+    {
+      "name": "Printer",
+      "children": [
+        { "name": "Multi-function Printer" },
+        { "name": "Personal Printer" }
+      ]
+    },
+    { "name": "Printing Hardware", "children": [{ "name": "Plotter" }] },
+    {
+      "name": "Probe",
+      "children": [
+        { "name": "CIM Probe" },
+        { "name": "Command Pipeline" },
+        { "name": "MultiProbe" },
+        { "name": "SNMP Probe" },
+        { "name": "WMI Probe" }
+      ]
+    },
+    { "name": "Process Steps", "children": [{ "name": "Approval Steps" }] },
+    {
+      "name": "Product Catalog Item",
+      "children": [
+        { "name": "Hardware Catalog" },
+        { "name": "Software Catalog" }
+      ]
+    },
+    {
+      "name": "Product Model",
+      "children": [
+        { "name": "Application Model" },
+        { "name": "Consumable Model" },
+        { "name": "Contract Model" },
+        { "name": "Facility Model" },
+        { "name": "Hardware Model" },
+        { "name": "Software Model" }
+      ]
+    },
+    {
+      "name": "Qualifier",
+      "children": [
+        { "name": "Boundary Connection Qualifier" },
+        { "name": "Entrypoint Marker" },
+        { "name": "External Connection Qualifier" },
+        { "name": "Hidden Connection Qualifier" },
+        { "name": "Manual CI Endpoint Qualifier" },
+        { "name": "Manual Connection Qualifier" }
+      ]
+    },
+    { "name": "Query Rewrite", "children": [{ "name": "Index Hint Rewrite" }] },
+    {
+      "name": "Question",
+      "children": [
+        { "name": "Variable" },
+        { "name": "Variable Layout" },
+        { "name": "Wizard Variable" }
+      ]
+    },
+    {
+      "name": "Record Producer",
+      "children": [
+        { "name": "Service" },
+        { "name": "Standard Change Template" }
+      ]
+    },
+    {
+      "name": "Related List Entry",
+      "children": [{ "name": "Related List Relationship Entry" }]
+    },
+    { "name": "Report", "children": [{ "name": "Report Drillown" }] },
+    {
+      "name": "Request",
+      "children": [{ "name": "Request new Knowledge Base" }]
+    },
+    { "name": "Responders", "children": [{ "name": "Channel Responders" }] },
+    {
+      "name": "Retrieved Update Set",
+      "children": [{ "name": "Source Control Stash" }]
+    },
+    {
+      "name": "Rule",
+      "children": [
+        { "name": "Application Quota Rule" },
+        { "name": "Approval Rules" },
+        { "name": "Assignment Rule" },
+        { "name": "Inbound Email Actions" },
+        { "name": "Login Rule" },
+        { "name": "Notification" },
+        { "name": "Script Action" },
+        { "name": "Service Level Agreement" },
+        { "name": "Transaction Quota Rule" },
+        { "name": "View Rule" }
+      ]
+    },
+    {
+      "name": "SAN Disk",
+      "children": [{ "name": "Fibre Channel Disk" }, { "name": "iSCSI Disk" }]
+    },
+    {
+      "name": "SAN Export",
+      "children": [
+        { "name": "Fibre Channel Export" },
+        { "name": "iSCSI Export" }
+      ]
+    },
+    {
+      "name": "SAP Application",
+      "children": [
+        { "name": "SAP ASCS Application" },
+        { "name": "SAP CI Application" },
+        { "name": "SAP DI Application" },
+        { "name": "SAP ERS Application" },
+        { "name": "SAP JC Application" },
+        { "name": "SAP SCS Application" }
+      ]
+    },
+    {
+      "name": "Scaling Policy",
+      "children": [
+        { "name": "Dynamic Scaling Policy" },
+        { "name": "Simple Scaling Policy" }
+      ]
+    },
+    {
+      "name": "Schedule",
+      "children": [
+        { "name": "Condition Schedule" },
+        { "name": "Meeting Definition" }
+      ]
+    },
+    {
+      "name": "Scheduled Data Import",
+      "children": [{ "name": "Scheduled Data Import" }]
+    },
+    {
+      "name": "Scheduled Job",
+      "children": [
+        { "name": "Internal Timers" },
+        { "name": "Scheduled Data Collection" },
+        { "name": "Scheduled Data Export" },
+        { "name": "Scheduled Data Import" },
+        { "name": "Scheduled Email of Query Builder" },
+        { "name": "Scheduled Email of Report" },
+        { "name": "Scheduled Email Summary" },
+        { "name": "Scheduled Entity Generation" },
+        { "name": "Scheduled Indicator" },
+        { "name": "Scheduled Script Execution" }
+      ]
+    },
+    {
+      "name": "Scheduled Script Execution",
+      "children": [
+        { "name": "API Stats Scheduled Script Execution" },
+        { "name": "Audit" },
+        { "name": "Benchmark Scheduled Script" },
+        { "name": "Broadcast Message" },
+        { "name": "Suite Schedule" },
+        { "name": "Trigger Execution" },
+        { "name": "Workflow Schedule" }
+      ]
+    },
+    {
+      "name": "Server",
+      "children": [
+        { "name": "CIM Server" },
+        { "name": "Data Power Hosting Server" },
+        { "name": "IBM Mainframe" },
+        { "name": "IBM Mainframe LPAR" },
+        { "name": "IBM zOS server" },
+        { "name": "ISAM Server" },
+        { "name": "Linux Server" },
+        { "name": "Load Balancer" },
+        { "name": "Netware Server" },
+        { "name": "OS/X Server" },
+        { "name": "Server Hardware" },
+        { "name": "Storage Node Element" },
+        { "name": "Storage Server" },
+        { "name": "UNIX Server" },
+        { "name": "Virtualization Server" },
+        { "name": "Windows Server" }
+      ]
+    },
+    {
+      "name": "Server Hardware",
+      "children": [
+        { "name": "Network Appliance Hardware" },
+        { "name": "Server Chassis" },
+        { "name": "Server Tape Unit" }
+      ]
+    },
+    {
+      "name": "Service Level Agreement",
+      "children": [{ "name": "Inactivity Monitor" }]
+    },
+    { "name": "Service Registry Query", "children": [{ "name": "SLP Query" }] },
+    { "name": "Service Task", "children": [] },
+    {
+      "name": "ServiceNow Application",
+      "children": [{ "name": "ServiceNow Application Component" }]
+    },
+    {
+      "name": "Setter Field Definitions",
+      "children": [{ "name": "Catalog Setter Variable Definitions" }]
+    },
+    {
+      "name": "Sized Content",
+      "children": [{ "name": "Flash Movie" }, { "name": "IFrames" }]
+    },
+    {
+      "name": "SLA Breakdown Core",
+      "children": [{ "name": "SLA Breakdown by Assignment" }]
+    },
+    {
+      "name": "Slow Pattern",
+      "children": [
+        { "name": "Slow Cache Build" },
+        { "name": "Slow Event" },
+        { "name": "Slow Mutex" },
+        { "name": "Slow Queries" },
+        { "name": "Slow Scripts" },
+        { "name": "Slow Transactions" },
+        { "name": "Stacktraces" }
+      ]
+    },
+    {
+      "name": "Software",
+      "children": [
+        { "name": "Application Software" },
+        { "name": "Desktop Software" },
+        { "name": "Infrastructure Software" }
+      ]
+    },
+    {
+      "name": "Software License",
+      "children": [
+        { "name": "Adobe Software License" },
+        { "name": "Generic Software License" },
+        { "name": "Microsoft Software License" },
+        { "name": "Symantec Software License" }
+      ]
+    },
+    {
+      "name": "Storage Device",
+      "children": [{ "name": "Disk" }, { "name": "SAN Disk" }]
+    },
+    { "name": "Storage Export", "children": [{ "name": "SAN Export" }] },
+    {
+      "name": "Storage Pool",
+      "children": [
+        { "name": "LVM Pool" },
+        { "name": "Multipath IO Pool" },
+        { "name": "Multipath IO Pool Group" },
+        { "name": "RAID" },
+        { "name": "Veritas Disk" },
+        { "name": "Veritas Plex" },
+        { "name": "Veritas Volume" }
+      ]
+    },
+    {
+      "name": "Storage Pool Member",
+      "children": [
+        { "name": "LVM Pool Member" },
+        { "name": "Multipath IO Pool Path" },
+        { "name": "RAID Member" },
+        { "name": "Veritas Subdisk" }
+      ]
+    },
+    {
+      "name": "Storage Volume",
+      "children": [{ "name": "File System" }, { "name": "Netapp Volume" }]
+    },
+    {
+      "name": "Strategic Objective",
+      "children": [
+        { "name": "Business Unit Strategy" },
+        { "name": "Enterprise Strategy" }
+      ]
+    },
+    {
+      "name": "Style Rule Core",
+      "children": [
+        { "name": "Style Rule" },
+        { "name": "Style Rule" },
+        { "name": "Style Rule" }
+      ]
+    },
+    {
+      "name": "Task",
+      "children": [
+        { "name": "Catalog Task" },
+        { "name": "Change Phase" },
+        { "name": "Change Request" },
+        { "name": "Change Task" },
+        { "name": "Chat Queue Entry" },
+        { "name": "Feature Task" },
+        { "name": "Follow On Task" },
+        { "name": "Group approval" },
+        { "name": "Guided Setup Task" },
+        { "name": "Incident" },
+        { "name": "Incident Task" },
+        { "name": "KB Submission" },
+        { "name": "Knowledge Feedback Task" },
+        { "name": "NeedIt" },
+        { "name": "Orphan CI Remediation" },
+        { "name": "Private Task" },
+        { "name": "Problem" },
+        { "name": "Problem Task" },
+        { "name": "Reclassification Task" },
+        { "name": "Recommended Field Remediation" },
+        { "name": "Remediate Duplicate Task" },
+        { "name": "Release Phase" },
+        { "name": "Renew Lease Task" },
+        { "name": "Request" },
+        { "name": "Requested Item" },
+        { "name": "Required Field Remediation" },
+        { "name": "Service Task" },
+        { "name": "Stale CI Remediation" },
+        { "name": "Standard Change Proposal" },
+        { "name": "Test" },
+        { "name": "teste" },
+        { "name": "Ticket" }
+      ]
+    },
+    {
+      "name": "Template",
+      "children": [{ "name": "Standard Change Template Value" }]
+    },
+    { "name": "Test Result Item", "children": [{ "name": "Step Result" }] },
+    {
+      "name": "Test Variable",
+      "children": [
+        { "name": "Input Variables" },
+        { "name": "Output Variables" }
+      ]
+    },
+    { "name": "Timeline Page", "children": [{ "name": "Timeline Sub Item" }] },
+    {
+      "name": "Tower Equipment",
+      "children": [
+        { "name": "Tower" },
+        { "name": "Tower Beacon" },
+        { "name": "Tower Light Controller" },
+        { "name": "Tower Lights" }
+      ]
+    },
+    {
+      "name": "Transformer",
+      "children": [
+        { "name": "Pipeline Transformer: Javascript" },
+        { "name": "Pipeline Transformer: Key Mapper" },
+        { "name": "Pipeline Transformer: PPID Special Case" },
+        { "name": "Subnet Transformer" }
+      ]
+    },
+    {
+      "name": "Trigger",
+      "children": [
+        { "name": "Catalog Trigger" },
+        { "name": "Record Trigger" },
+        { "name": "REST Trigger" },
+        { "name": "Timer Trigger" }
+      ]
+    },
+    {
+      "name": "UI Policy",
+      "children": [
+        { "name": "Catalog UI Policy" },
+        { "name": "Wizard UI Policy" },
+        { "name": "Workflow UI Policy" }
+      ]
+    },
+    {
+      "name": "UI Policy Action",
+      "children": [
+        { "name": "Catalog UI Policy Action" },
+        { "name": "Wizard UI Policy Action" },
+        { "name": "Workflow UI Policy Action" }
+      ]
+    },
+    {
+      "name": "UNIX Server",
+      "children": [
+        { "name": "AIX Server" },
+        { "name": "HPUX Server" },
+        { "name": "Solaris Server" }
+      ]
+    },
+    {
+      "name": "Variable",
+      "children": [
+        { "name": "Flow catalog variable" },
+        { "name": "Workflow SC Variable" }
+      ]
+    },
+    { "name": "Variable Set", "children": [] },
+    {
+      "name": "Variables",
+      "children": [
+        { "name": "Action Inputs" },
+        { "name": "Action Outputs" },
+        { "name": "Action Step Definition Input" },
+        { "name": "Action Step Definition Output" },
+        { "name": "Activity Variables" },
+        { "name": "Connection Attributes" },
+        { "name": "Deployment Extension Variables" },
+        { "name": "Extended Step Input Variable" },
+        { "name": "Extended Step Output Variable" },
+        { "name": "Flow Inputs" },
+        { "name": "Flow Outputs" },
+        { "name": "Logic Input" },
+        { "name": "Logic Variable" },
+        { "name": "Remembered Value" },
+        { "name": "Test Variable" },
+        { "name": "Trigger Flow Connector" },
+        { "name": "Trigger Flow Connector" }
+      ]
+    },
+    {
+      "name": "Virtual Machine HyperVisor",
+      "children": [
+        { "name": "KVM" },
+        { "name": "Parallels" },
+        { "name": "VMware" },
+        { "name": "Zones" }
+      ]
+    },
+    {
+      "name": "Virtual Machine Instance",
+      "children": [
+        { "name": "EC2 Virtual Machine Instance" },
+        { "name": "Hyper-V Virtual Machine Instance" },
+        { "name": "KVM Virtual Machine Instance" },
+        { "name": "Solaris Virtual Machine Instance" },
+        { "name": "VMware Virtual Machine Instance" }
+      ]
+    },
+    {
+      "name": "Virtual Machine Object",
+      "children": [
+        { "name": "Apic Host" },
+        { "name": "Apic Tenant" },
+        { "name": "Application Network Profile" },
+        { "name": "Availability Set" },
+        { "name": "Availability Zone" },
+        { "name": "AWS Account" },
+        { "name": "Azure Subscription" },
+        { "name": "Bridge Domain" },
+        { "name": "Bundled Resources" },
+        { "name": "Cloud IP Address" },
+        { "name": "Cloud LB IPAddress" },
+        { "name": "Cloud Load Balancer" },
+        { "name": "Cloud Monitor Alarm" },
+        { "name": "Cloud Monitor Notification" },
+        { "name": "Cloud Public IP Address" },
+        { "name": "Cloud Storage Account" },
+        { "name": "Cloud Subnet" },
+        { "name": "Cloud Topic" },
+        { "name": "Compute Security Group" },
+        { "name": "Compute Security Group Template" },
+        { "name": "Customer Gateway" },
+        { "name": "Customization Spec" },
+        { "name": "Hardware Type" },
+        { "name": "Hyper-V Object" },
+        { "name": "Image" },
+        { "name": "Installed Bundles" },
+        { "name": "Internet Gateway" },
+        { "name": "KVM Object" },
+        { "name": "LB Backend Server" },
+        { "name": "LB Cookie Stickiness Policy" },
+        { "name": "LIF" },
+        { "name": "Load Balancer Listener" },
+        { "name": "Load Balancer Template" },
+        { "name": "Mirror Template" },
+        { "name": "NAS Storage" },
+        { "name": "NAT Gateway" },
+        { "name": "Netapp CDOT" },
+        { "name": "Netapp SVM" },
+        { "name": "Network ACL" },
+        { "name": "Network ACL Rule" },
+        { "name": "Network Policy Group" },
+        { "name": "Network Template" },
+        { "name": "Performance Template" },
+        { "name": "Port Group" },
+        { "name": "Protection Template" },
+        { "name": "Qtree" },
+        { "name": "Remote Backup Template" },
+        { "name": "Resource Group" },
+        { "name": "Route" },
+        { "name": "Route Table" },
+        { "name": "Router" },
+        { "name": "Routing Policy" },
+        { "name": "Scaling Policy" },
+        { "name": "Schedule Policy Template" },
+        { "name": "Server Array Launch Configuration" },
+        { "name": "Server Snapshot" },
+        { "name": "Snapshot Template" },
+        { "name": "SNAT IP Pool" },
+        { "name": "Storage Access Policy" },
+        { "name": "Storage Container" },
+        { "name": "Storage Default Template" },
+        { "name": "Storage Efficiency Template" },
+        { "name": "Storage Mapping" },
+        { "name": "Storage Node" },
+        { "name": "Storage Volume Snapshot" },
+        { "name": "Switch" },
+        { "name": "Virtual Desktop" },
+        { "name": "Virtual Machine Instance" },
+        { "name": "Virtual Private Gateway" },
+        { "name": "Virtual Server Array" },
+        { "name": "VM User Credentials" },
+        { "name": "VMware vCenter Object" },
+        { "name": "Volume Template" },
+        { "name": "VPN Connection" },
+        { "name": "VServer Peer" }
+      ]
+    },
+    {
+      "name": "Virtual Machine Template",
+      "children": [{ "name": "VMware Virtual Machine Template" }]
+    },
+    {
+      "name": "Virtualization Server",
+      "children": [
+        { "name": "Hyper-V Server" },
+        { "name": "VMware vCenter Server Object" }
+      ]
+    },
+    {
+      "name": "VMware vCenter Object",
+      "children": [
+        { "name": "Cloud Network" },
+        { "name": "Datastore" },
+        { "name": "ESX Resource Pool" },
+        { "name": "Host Cluster" },
+        { "name": "Logical Datacenter" },
+        { "name": "VMware vCenter Folder" }
+      ]
+    },
+    {
+      "name": "VMware vCenter Server Object",
+      "children": [{ "name": "ESX Server" }]
+    },
+    {
+      "name": "Web Server",
+      "children": [
+        { "name": "Apache Web Server" },
+        { "name": "Cloud WebServer" },
+        { "name": "Iplanet Web Server" },
+        { "name": "Microsoft iis Web Server" },
+        { "name": "Nginx Web Server" }
+      ]
+    },
+    { "name": "Widget", "children": [{ "name": "Header | Footer" }] },
+    {
+      "name": "Wizard Panel",
+      "children": [
+        { "name": "Catalog Checkout Panel" },
+        { "name": "Catalog Order" },
+        { "name": "KB Viewer" },
+        { "name": "Record Generator" },
+        { "name": "Redirect Panel" }
+      ]
+    },
+    {
+      "name": "Workflow Element Definition",
+      "children": [
+        { "name": "Activity Designer" },
+        { "name": "Workflow Activity Definition" }
+      ]
+    },
+    {
+      "name": "WS-Security Profiles (Outbound)",
+      "children": [
+        { "name": "WS-Security Username Profiles (Outbound)" },
+        { "name": "WS-Security X.509 Profiles (Outbound)" }
+      ]
+    }
+  ]
+}
