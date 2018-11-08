@@ -97,41 +97,6 @@ d3.json("data/buildings.json").then(function(data) {
     .attr("height", box.height)
     .attr("viewBox", `${box.x} ${box.y} ${box.width} ${box.height}`);
 
-  console.log(svg);
-
-  var canvas = svg;
-  var context = canvas.getContext("2d");
-
-  width = canvas.property("width");
-  height = canvas.property("height");
-
-  canvas.call(
-    d3
-      .zoom()
-      .scaleExtent([1 / 2, 4])
-      .on("zoom", zoomed)
-  );
-
-  function zoomed() {
-    context.save();
-    context.clearRect(0, 0, width, height);
-    context.translate(d3.event.transform.x, d3.event.transform.y);
-    context.scale(d3.event.transform.k, d3.event.transform.k);
-    drawPoints();
-    context.restore();
-  }
-
-  function drawPoints() {
-    context.beginPath();
-    points.forEach(drawPoint);
-    context.fill();
-  }
-
-  function drawPoint(point) {
-    context.moveTo(point[0] + radius, point[1]);
-    context.arc(point[0], point[1], radius, 0, 2 * Math.PI);
-  }
-
   d3.select("body").append(function() {
     return svg.node();
   });
